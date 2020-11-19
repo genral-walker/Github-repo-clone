@@ -6,6 +6,8 @@ const elm = {
     inputImg: document.querySelector('.search-img'),
     hamburger: document.querySelector('.hamburger-container'),
     navSub: document.querySelector('.nav-sub-secondary'),
+    avater: document.querySelector('.avater'),
+    repoProfile: document.querySelector('.repo-profile')
 };
 
 
@@ -29,9 +31,20 @@ elm.inputMobile.addEventListener('focusout', () => {
 });
 
 
-// SUB-NAV TRIGGER BUTTON
 
-elm.hamburger.addEventListener('click', ()=>{
+// SUB-NAV TRIGGER BUTTON
+elm.hamburger.addEventListener('click', () => {
     elm.navSub.classList.toggle('show');
 });
 
+
+
+// REPO HEADER ANIMATION
+
+const profileShow = new IntersectionObserver( entries => {
+        entries.forEach(elem => {
+            elem.isIntersecting ? elm.repoProfile.style.opacity = '0' : elm.repoProfile.style.opacity = '1';
+        })
+    }
+);
+profileShow.observe(elm.avater)

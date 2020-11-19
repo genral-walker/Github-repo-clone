@@ -81,7 +81,7 @@
 
     <nav class="nav nav-secondary flex-between">
       <div class="hamburger-container">
-          <div class="hamburger"></div>
+        <div class="hamburger"></div>
       </div>
 
       <svg
@@ -123,40 +123,732 @@
       <div class="nav-sub-secondary-contents flex-column">
         <label for="search" class="search flex-between">
           <img class="search-img" src="./assets/icons/slash.svg" alt="slash" />
-          <input
-            type="text"
-            name="search"
-            id="search-2"
-            placeholder="Search"
-          />
+          <input type="text" name="search" id="search-2" placeholder="Search" />
         </label>
 
         <div class="nav-anchors nav-sub-anchors flex-column">
-            <a href="#" class="hover-dark">Dashboard</a>
+          <a href="#" class="hover-dark">Dashboard</a>
           <a href="#" class="hover-dark">Pull request</a>
           <a href="#" class="hover-dark">Issues</a>
           <a href="#" class="hover-dark">Marketplace</a>
           <a href="#" class="hover-dark">Explore</a>
-            
-            <a href="#" class="hover-dark flex-start">
-                <img
-                src="./assets/images/small-profile-pic.jpg"
-                alt="small-profile-pic"
-                class="nav-right-img"
-              />
-                <span class="profile-text">
-                    genral-walker
-                </span>
-            </a>
 
           <a href="#" class="hover-dark flex-start">
-            <svg class="exit-icon octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
+            <img
+              src="./assets/images/small-profile-pic.jpg"
+              alt="small-profile-pic"
+              class="nav-right-img"
+            />
+            <span class="profile-text"> genral-walker </span>
+          </a>
+
+          <a href="#" class="hover-dark flex-start">
+            <svg
+              class="exit-icon octicon octicon-sign-out v-align-middle"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              height="16"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"
+              ></path>
+            </svg>
             <span class="sign-out-text">Sign out</span>
-            </a
-          >
+          </a>
         </div>
       </div>
     </nav>
+
+    <main>
+      <nav class="repos flex-between">
+        <span class="hover-dark flex-start repo-profile">
+          <img
+            src="./assets/images/small-profile-pic.jpg"
+            alt="small-profile-pic"
+            class="nav-right-img"
+          />
+          <span class="profile-text"> genral-walker </span>
+        </span>
+
+        <a href="#" class="repo flex-start">
+          <svg class="repo-icon">
+            <use
+              xlink:href="./assets/icons/sprites.svg#icon-svgexport-10"
+            ></use>
+          </svg>
+          <span class="repo-text">Repositories</span>
+          <div class="repo-num flex-center">
+            <span>15</span>
+          </div>
+        </a>
+      </nav>
+
+      <aside class="profile flex-column">
+        <div class="profile-header">
+          <div class="picture-container">
+            <img
+              class="avater"
+              src="./assets/images/profile-pic.jpg"
+              alt="big profile-pic"
+            />
+
+            <div class="smile-icon-container flex-center">
+              <svg class="smile-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-6"
+                ></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="names-container">
+            <h1 class="name">Lukman Sanni</h1>
+            <h3 class="alias">genral-walker</h3>
+          </div>
+        </div>
+
+        <p class="description">
+          A passionate Web dev. Loves <br class="br" />
+          JavaScript. A Learner.
+        </p>
+
+        <div class="follow-cta flex-between">
+          <button class="follow-btn hover-dark-bg">Follow</button>
+          <button class="3-dot hover-dark-bg">···</button>
+        </div>
+
+        <div class="profile-stats flex-between">
+          <div class="stat flex-between">
+            <svg class="stat-icon">
+              <use
+                xlink:href="./assets/icons/sprites.svg#icon-svgexport-17"
+              ></use>
+            </svg>
+            <span>4</span>
+            <p>followers</p>
+          </div>
+
+          <span class="dot">·</span>
+
+          <div class="stat flex-between">
+            <span>13</span>
+            <p>following</p>
+          </div>
+
+          <span class="dot">·</span>
+
+          <div class="stat flex-between">
+            <svg class="stat-icon">
+              <use
+                xlink:href="./assets/icons/sprites.svg#icon-svgexport-26"
+              ></use>
+            </svg>
+            <span>8</span>
+          </div>
+        </div>
+
+        <p class="link flex-start">
+          <svg class="stat-icon">
+            <use
+              xlink:href="./assets/icons/sprites.svg#icon-svgexport-19"
+            ></use>
+          </svg>
+          <a href="https://lukmansanni.netlify.app">lukmansanni.netlify.app</a>
+        </p>
+      </aside>
+
+      <section class="main-content">
+        <div class="main-repos">
+          <input
+            class="search"
+            placeholder="Find a repository..."
+            type="text"
+            name=""
+            id="search-3"
+          />
+
+          <div class="repo-list repo-list-1 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/genral-walker"
+                class="repo-link"
+              >
+                <h2 class="repo-name">genral-walker</h2>
+              </a>
+
+              <h3 class="repo-description">My Intro</h3>
+
+              <p class="updated">Updated 7 days ago</p>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-2 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/MyPQuest"
+                class="repo-link"
+              >
+                <h2 class="repo-name">MyPQuest</h2>
+              </a>
+
+              <h3 class="repo-description">Start.ng Js quiz Challenge</h3>
+
+              <div class="others flex-start">
+                <div class="tools flex-between">
+                  <div class="circle" style="background: #c6538c"></div>
+                  <p class="tool-text">SCSS</p>
+                </div>
+
+                <div class="svgs flex-between">
+                  <svg class="repo-icon">
+                    <use
+                      xlink:href="./assets/icons/sprites.svg#icon-svgexport-26"
+                    ></use>
+                  </svg>
+
+                  <span class="svg-num">2</span>
+                </div>
+
+                <p class="updated">Updated 7 days ago</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-3 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/simon_game.github.io"
+                class="repo-link"
+              >
+                <h2 class="repo-name">simon_game.github.io</h2>
+              </a>
+
+              <h3 class="repo-description">A simple Simon Game</h3>
+
+              <div class="others flex-start">
+                <div class="tools flex-between">
+                  <div class="circle" style="background: #563d7c"></div>
+                  <p class="tool-text">CSS</p>
+                </div>
+
+                <div class="svgs flex-between">
+                  <svg class="repo-icon">
+                    <use
+                      xlink:href="./assets/icons/sprites.svg#icon-svgexport-26"
+                    ></use>
+                  </svg>
+
+                  <span class="svg-num">1</span>
+                </div>
+
+                <p class="updated">Updated 7 days ago</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-4 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/portfolio-project"
+                class="repo-link"
+              >
+                <h2 class="repo-name">portfolio-project</h2>
+              </a>
+
+              <h3 class="repo-description">
+                A single page portfolio site. built with Html Sass and
+                JavaScript.
+              </h3>
+
+              <div class="others flex-start">
+                <div class="tools flex-between">
+                  <div class="circle" style="background: #563d7c"></div>
+                  <p class="tool-text">CSS</p>
+                </div>
+
+                <p class="updated">Updated 7 days ago</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-5 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/Lukman-Sanni"
+                class="repo-link"
+              >
+                <h2 class="repo-name">Lukman-Sanni</h2>
+              </a>
+
+              <div class="others flex-start">
+                <div class="tools flex-between">
+                  <div class="circle" style="background: #563d7c"></div>
+                  <p class="tool-text">CSS</p>
+                </div>
+
+                <p class="updated">Updated 7 days ago</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-6 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/alarm"
+                class="repo-link"
+              >
+                <h2 class="repo-name">alarm</h2>
+              </a>
+
+              <p class="forked">
+                Forked From
+                <a href="https://github.com/matincodes/alarm"
+                  >matincodes/alarm</a
+                >
+              </p>
+
+              <h3 class="repo-description">an alarm clock with timer</h3>
+
+              <div class="others flex-start">
+                <div class="tools flex-between">
+                  <div class="circle" style="background: #e34c26"></div>
+                  <p class="tool-text">HTML</p>
+                </div>
+
+                <div class="svgs flex-between">
+                  <svg class="repo-icon">
+                    <use
+                      xlink:href="./assets/icons/sprites.svg#icon-svgexport-32"
+                    ></use>
+                  </svg>
+
+                  <span class="svg-num">7</span>
+                </div>
+
+                <p class="updated">Updated on Aug 6</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-7 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/EducationTemplate"
+                class="repo-link"
+              >
+                <h2 class="repo-name">EducationTemplate</h2>
+              </a>
+
+              <p class="forked">
+                Forked From
+                <a href="https://github.com/NerdPraise/EducationTemplate"
+                  >NerdPraise/EducationTemplate</a
+                >
+              </p>
+
+              <div class="others flex-start">
+                <div class="tools flex-between">
+                  <div class="circle" style="background: #e34c26"></div>
+                  <p class="tool-text">HTML</p>
+                </div>
+
+                <div class="svgs flex-between">
+                  <svg class="repo-icon">
+                    <use
+                      xlink:href="./assets/icons/sprites.svg#icon-svgexport-32"
+                    ></use>
+                  </svg>
+
+                  <span class="svg-num">4</span>
+                </div>
+
+                <p class="updated">Updated on Jun 23</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-8 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/Team-Olympians-FrontEnd-Hotel"
+                class="repo-link"
+              >
+                <h2 class="repo-name">Team-Olympians-FrontEnd-Hotel</h2>
+              </a>
+
+              <p class="forked">
+                Forked From
+                <a href="https://github.com/hngi/Team-Olympians-FrontEnd-Hotel"
+                  >hngi/Team-Olympians-FrontEnd-Hotel</a
+                >
+              </p>
+
+              <div class="others flex-start">
+                <div class="svgs flex-between">
+                  <svg class="repo-icon">
+                    <use
+                      xlink:href="./assets/icons/sprites.svg#icon-svgexport-32"
+                    ></use>
+                  </svg>
+
+                  <span class="svg-num">17</span>
+                </div>
+
+                <p class="updated">Updated on Jun 12</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-9 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/HotelLuxuria"
+                class="repo-link"
+              >
+                <h2 class="repo-name">HotelLuxuria</h2>
+              </a>
+
+              <p class="forked">
+                Forked From
+                <a href="https://github.com/qobitech/HotelLuxuria"
+                  >qobitech/HotelLuxuria</a
+                >
+              </p>
+
+              <h3 class="repo-description">HNG intern task</h3>
+
+              <div class="others flex-start">
+                <div class="tools flex-between">
+                  <div class="circle" style="background: #563d7c"></div>
+                  <p class="tool-text">CSS</p>
+                </div>
+
+                <div class="svgs flex-between">
+                  <svg class="repo-icon">
+                    <use
+                      xlink:href="./assets/icons/sprites.svg#icon-svgexport-32"
+                    ></use>
+                  </svg>
+
+                  <span class="svg-num">5</span>
+                </div>
+
+                <p class="updated">Updated on Jun 8</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-10 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/HNG-Script"
+                class="repo-link"
+              >
+                <h2 class="repo-name">HNG-Script</h2>
+              </a>
+
+              <p class="forked">
+                Forked From
+                <a href="https://github.com/kadetXx/HNG-Script"
+                  >kadetXx/HNG-Script</a
+                >
+              </p>
+
+              <div class="others flex-start">
+                <div class="tools flex-between">
+                  <div class="circle" style="background: #f1e05a"></div>
+                  <p class="tool-text">JavaScript</p>
+                </div>
+
+                <div class="svgs flex-between">
+                  <svg class="repo-icon">
+                    <use
+                      xlink:href="./assets/icons/sprites.svg#icon-svgexport-32"
+                    ></use>
+                  </svg>
+
+                  <span class="svg-num">531</span>
+                </div>
+
+                <p class="updated">Updated on Jun 4</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text"> Star </span>
+            </button>
+          </div>
+
+          <div class="repo-list repo-list-11 flex-between">
+            <div class="repo-details">
+              <a
+                href="https://github.com/genral-walker/Hng-first-git-task"
+                class="repo-link"
+              >
+                <h2 class="repo-name">Hng-first-git-task</h2>
+              </a>
+
+              <h3 class="repo-description">
+                Hng tasks commencement</h3>
+
+                <p class="updated">Updated on Jun 2</p>
+              </div>
+
+              <button class="hover-dark-bg repo-star-btn flex-center">
+                <svg class="repo-icon">
+                  <use
+                    xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                  ></use>
+                </svg>
+  
+                <span class="star-text"> Star </span>
+              </button>
+            </div>
+          </div>
+
+           <div class="repo-list repo-list-12 flex-between">
+
+            <div class="repo-details">
+
+              <a href="https://github.com/genral-walker/lukman-s" class="repo-link"> 
+                  <h2 class="repo-name">
+                      lukman-s
+                  </h2>
+              </a>
+
+              <div class="others flex-start">
+                  <div class="tools flex-between">
+                      <div class="circle"  style="background: #e34c26">
+                      </div>
+                      <p class="tool-text">HTML</p>
+                  </div>
+
+                  <p class="updated">Updated on May 19</p>
+              </div>
+            </div>
+
+            <button class="hover-dark-bg repo-star-btn flex-center">
+              <svg class="repo-icon">
+                  <use
+                    xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                  ></use>
+                </svg>
+
+                <span class="star-text">
+                    Star
+                </span>
+            </button>
+
+        </div>  
+
+        <div class="repo-list repo-list-13 flex-between">
+          <div class="repo-details">
+            <a
+              href="https://github.com/genral-walker/testers"
+              class="repo-link"
+            >
+              <h2 class="repo-name">testers</h2>
+            </a>
+
+            <h3 class="repo-description">
+              website test
+            </h3>
+
+            <div class="others flex-start">
+              <div class="tools flex-between">
+                <div class="circle" style="background: #563d7c"></div>
+                <p class="tool-text">CSS</p>
+              </div>
+
+              <p class="updated">Updated on Apr 30</p>
+            </div>
+          </div>
+
+          <button class="hover-dark-bg repo-star-btn flex-center">
+            <svg class="repo-icon">
+              <use
+                xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+              ></use>
+            </svg>
+
+            <span class="star-text"> Star </span>
+          </button>
+        </div>
+
+        <div class="repo-list repo-list-14 flex-between">
+
+          <div class="repo-details">
+
+            <a href="https://github.com/genral-walker/hng-second-task" class="repo-link"> 
+                <h2 class="repo-name">
+                  hng-second-task
+                </h2>
+            </a>
+
+            <div class="others flex-start">
+                <div class="tools flex-between">
+                    <div class="circle"  style="background: #e34c26">
+                    </div>
+                    <p class="tool-text">HTML</p>
+                </div>
+
+                <p class="updated">Updated on Mar 26</p>
+            </div>
+          </div>
+
+          <button class="hover-dark-bg repo-star-btn flex-center">
+            <svg class="repo-icon">
+                <use
+                  xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+                ></use>
+              </svg>
+
+              <span class="star-text">
+                  Star
+              </span>
+          </button>
+
+      </div> 
+      
+      <div class="repo-list repo-list-15 flex-between">
+
+        <div class="repo-details">
+
+          <a href="https://github.com/genral-walker/Bird-Watching" class="repo-link"> 
+              <h2 class="repo-name">
+                  Bird-Watching
+              </h2>
+          </a>
+
+          <div class="others flex-start">
+              <div class="tools flex-between">
+                  <div class="circle"  style="background: #e34c26">
+                  </div>
+                  <p class="tool-text">HTML</p>
+              </div>
+
+              <p class="updated">Updated on Feb 4</p>
+          </div>
+        </div>
+
+        <button class="hover-dark-bg repo-star-btn flex-center">
+          <svg class="repo-icon">
+              <use
+                xlink:href="./assets/icons/sprites.svg#icon-svgexport-24"
+              ></use>
+            </svg>
+
+            <span class="star-text">
+                Star
+            </span>
+        </button>
+
+    </div> 
+
+      </div>
+      </section>
+    </main>
+
+    <div class="line-break"></div>
   </body>
   <script src="./script.js"></script>
 </html>
