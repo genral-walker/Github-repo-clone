@@ -1,7 +1,7 @@
 
-# BuyCoins Coding Challenge
+# My Github Repository Clone
 
 Built With HTML, CSS and JavaScript
 
-[Solution to BuyCoins Frontend Engineer Challenge](https://buycoinsschallenge.netlify.app/) 
+[See Live Work](https://buycoinsschallenge.netlify.app/) 
 
